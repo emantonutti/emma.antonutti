@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>I libri di Emma</title>
+<link href="stile.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1 style="font-family: 'Courier New', fantasy;">I libri di Emma</h1>
+	<img src="immagini/foto1.jpg" alt="Ragazza in una biblioteca">
+	<br>
+	<button onclick="Notte()"> Cambia sfondo </button>
+	<p>Non ricordo un momento della mia vita in cui non ci fossero i libri: 
+		<br> a tre anni guardavo i film disney e poi "leggevo" le stesse storie inventandomi le parole usando solo le immagini come base, a quattro prima di addormentarci mio papà leggeva a mia sorella e me, a sei ho iniziato a leggere veramente, a nove ogni venerdì andavamo in libreria a comprare un libro, a dodici la biblioteca è diventata la mia nuova casa, a quindici quando non avevo amici ho passato un'intera estate con la testa tra le pagine, a sedici ho trovato una delle mie più grandi amiche dopo averle prestato un libro che avevo amato e ora ogni giorno in treno ho una storia a tenermi compagnia
+		<br> Nel tempo sono cambiate tante cose ma i libri sono sempre stati la mia unica certezza, perchè una persona può lasciarti da un momento all'altro ma un libro non ti abbandonerà mai e sarà sempre lì nel momento del bisogno. 
+		<br> Ok, va bene, forse sto un po' esagerando però... Sono sempre stata una persona timida che fatica a parlare con gli altri e che prima di dire qualsiasi parola ci pensa almeno tre volte, per poi rimuginarci sopra per giorni. E in un mondo dove siamo giudicati per ogni piccola azione che facciamo, la lettura è un rifugio dove trovare conforto.</p>
+	<p>Quindi se anche voi siete sognatori, romantici e credete un po' nella magia o semplicemente amate i libri, date un'occhiata alla mia biblioteca. </p>
+	
+	<h2>la mia biblioteca</h2>
+	
+	<div class="biblioteca">
+		<div class="libro">
+			<a href="pagina1.html">
+				<img src= "https://www.rizzolilibri.it/content/uploads/2025/07/978881719087HIG.webp?x30388" alt= "The goldens">
+			</a>
+		</div>
+  		<div class="libro">
+  			<a href="pagina2.html">
+  				<img src= "immagini/libro4.jpg" alt="Non lasciarmi"></a>
+  		</div>
+  		<div class="libro">
+  			<a href="pagina3.html">
+  				<img src= "immagini/libro5.jpg" alt="I sette mariti di Evelyn Hugo"></a>
+  		</div>
+  		<div class="libro">
+  			<img src="immagini/libro3.jpg" alt= "The love hypotesis">
+  		</div>
+  		<div class="libro">
+  			<img src="immagini/libro1.jpeg" alt="Emma">
+  		</div>
+  		<div class="libro">
+  			<img src="immagini/libro2.jpg">
+  		</div>
+	</div>
+
+	<script>
+		function Notte() {
+			var element = document.body
+			element.classList.toggle("notte")
+		}
+	</script>
+</body>
+</html>
